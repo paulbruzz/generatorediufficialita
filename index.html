@@ -1,4 +1,11 @@
-<!DOCTYPE html> <html> <meta charset="utf-8"> <title>Perchance</title> <meta name="viewport" content="width=device-width, initial-scale=1"> <base href="https://perchance.org/" target="_parent"> <meta name="referrer" content="no-referrer"> <style> html{ font-family:sans-serif; -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; } body{ margin:0;} article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section{ display:block;} audio, canvas, progress, video{ display:inline-block; vertical-align:baseline; } audio:not([controls]){ display:none;height:0;} [hidden], template{ display:none;} a{ background-color:transparent;} a:active, a:hover{ outline:0;} abbr[title]{ border-bottom:1px dotted;} b, strong{ font-weight:bold;} dfn{ font-style:italic;} h1{ font-size:2em;margin:0.67em 0;} mark{ background:#ff0;color:#000;} small{ font-size:80%;} sub, sup{ font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{ top:-0.5em;}sub{ bottom:-0.25em;} img{ border:0;} svg:not(:root){ overflow:hidden;} figure{ margin:1em 40px;} hr{ box-sizing:content-box;height:0;} pre{ overflow:auto;} code, kbd, pre, samp{ font-family:monospace, monospace;font-size:1em;} button, input, optgroup, select, textarea{ color:inherit; font:inherit; margin:0; } button{ overflow:visible;} button, select{ text-transform:none;} button, html input[type="button"], input[type="reset"], input[type="submit"]{ -webkit-appearance:button; cursor:pointer; } button[disabled], html input[disabled]{ cursor:default;} button::-moz-focus-inner, input::-moz-focus-inner{ border:0;padding:0;} input{ line-height:normal;} input[type="checkbox"], input[type="radio"]{ box-sizing:border-box; padding:0; } input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button{ height:auto;} input[type="search"]{ -webkit-appearance:textfield; box-sizing:content-box; } input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration{ -webkit-appearance:none;} fieldset{ border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;} legend{ border:0; padding:0; } textarea{ overflow:auto;} optgroup{ font-weight:bold;} table{ border-collapse:collapse;border-spacing:0;}td, th{ padding:0;}</style> <script>try{window.localStorage.testIfWeCanReadLocalStorageWithoutDOMError}catch(err){console.log("localStorage is disallowed. Adding a 'dummy' polyfill.");Object.defineProperty(window,"localStorage",{value:new Proxy({},{set:(t,k,v)=>t[k]=String(v)})})}</script> <script>let __localToken = "LOCAL"; // downloader changes this to "LOCAL"
+<!DOCTYPE html> <html> <meta charset="utf-8"> <title>Perchance</title> <meta name="viewport" content="width=device-width, initial-scale=1"> <base href="https://perchance.org/" target="_parent"> <meta name="referrer" content="no-referrer">
+<style>
+@font-face{
+  font-family: titoloGazzetta;
+  src: url(CorisandeRegular.ttf)
+}
+ html{ font-family:sans-serif; -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; } body{ margin:0;} article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section{ display:block;} audio, canvas, progress, video{ display:inline-block; vertical-align:baseline; } audio:not([controls]){ display:none;height:0;} [hidden], template{ display:none;} a{ background-color:transparent;} a:active, a:hover{ outline:0;} abbr[title]{ border-bottom:1px dotted;} b, strong{ font-weight:bold;} dfn{ font-style:italic;} h1{font-family:titoloGazzetta; font-size:2em;margin:0.67em 0;} mark{ background:#ff0;color:#000;} small{ font-size:80%;} sub, sup{ font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{ top:-0.5em;}sub{ bottom:-0.25em;} img{ border:0;} svg:not(:root){ overflow:hidden;} figure{ margin:1em 40px;} hr{ box-sizing:content-box;height:0;} pre{ overflow:auto;} code, kbd, pre, samp{ font-family:monospace, monospace;font-size:1em;} button, input, optgroup, select, textarea{ color:inherit; font:inherit; margin:0; } button{ overflow:visible;} button, select{ text-transform:none;} button, html input[type="button"], input[type="reset"], input[type="submit"]{ -webkit-appearance:button; cursor:pointer; } button[disabled], html input[disabled]{ cursor:default;} button::-moz-focus-inner, input::-moz-focus-inner{ border:0;padding:0;} input{ line-height:normal;} input[type="checkbox"], input[type="radio"]{ box-sizing:border-box; padding:0; } input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button{ height:auto;} input[type="search"]{ -webkit-appearance:textfield; box-sizing:content-box; } input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration{ -webkit-appearance:none;} fieldset{ border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;} legend{ border:0; padding:0; } textarea{ overflow:auto;} optgroup{ font-weight:bold;} table{ border-collapse:collapse;border-spacing:0;}td, th{ padding:0;}
+</style> <script>try{window.localStorage.testIfWeCanReadLocalStorageWithoutDOMError}catch(err){console.log("localStorage is disallowed. Adding a 'dummy' polyfill.");Object.defineProperty(window,"localStorage",{value:new Proxy({},{set:(t,k,v)=>t[k]=String(v)})})}</script> <script>let __localToken = "LOCAL"; // downloader changes this to "LOCAL"
   function __inIframe () {
     try {
         return window.self !== window.top;
@@ -35,13 +42,13 @@ function __addNodeMethods(node) {
   // Object.defineProperty(node, "isConsumable", {value:false, writable:true, configurable:true})
 
   Object.defineProperty(node, "toString", {value:__toStringMethod, configurable:true});
-  
+
   // we need this otherwise if they have:
   //   num = {1-1000}
   // and they type [num.toLocaleString()], the JS engine calls toString on the object (since that's the default thing to do with objects, I guess), which results in a string.
   Object.defineProperty(node, "toLocaleString", {value:function(...args) {
     let result = String(this.toString()); // String()-ing because apparently toString can return a number?? no time to look into it right now
-    if(String(Number(result)) === result) { 
+    if(String(Number(result)) === result) {
       result = Number(result);
     }
     return result.toLocaleString(...args);
@@ -177,7 +184,7 @@ let __consumableListMethod = function() {
   // return list;
 
   // If this node is wrapped in the $output-hider (See REF:kjhfw927f63ohwkgw82g in evaluateSquareBlock.js), then we unwrap it and do the unhiding ourself in the proxy we create below.
-  // This is needed due to this problem: https://www.reddit.com/r/perchance/comments/fx7exs/how_to_have_multiple_lists_point_to_the_same/fmxzccb/ Basically, if we have something like `$output = [this.consumableList.selectMany(3)]`, then, target[property] will be returned (in the below proxy's getter) *bound to the $output-hider proxy* rather than this one, and so there is no consumableList from the perspective of selectMany. So we make this proxy handle the $output hiding stuff. Remember than binding is different to proxying! This is some chef's kiss spaghetti 
+  // This is needed due to this problem: https://www.reddit.com/r/perchance/comments/fx7exs/how_to_have_multiple_lists_point_to_the_same/fmxzccb/ Basically, if we have something like `$output = [this.consumableList.selectMany(3)]`, then, target[property] will be returned (in the below proxy's getter) *bound to the $output-hider proxy* rather than this one, and so there is no consumableList from the perspective of selectMany. So we make this proxy handle the $output hiding stuff. Remember than binding is different to proxying! This is some chef's kiss spaghetti
   let thisRef = this;
   let $outputShouldBeHidden = false;
   if(thisRef.___$outputShouldBeHidden) {
@@ -307,7 +314,7 @@ let __selectAllMethod = function() {
 
   // This methos gets ALL items, regarless of whether they have odds == 0
   // If one wants to exlude `odds==0` items: list.selectAll.filter(item => item.getOdds > 0)
-  
+
   let $output = this.$output;
   if($output !== undefined) {
     return [$output]; // make it an array because why not. (consistency is nice)
@@ -684,14 +691,14 @@ delete window.pluralize;
 let __pluralFormMethod = function() {
   let input = this.toString();
   return __pluralize396795627295786(input);
-  
+
   //let output = nlp(input).nouns().toPlural().out("text");
   //return output === "" ? input : output; // don't add "s" by default because the lib should already do it, and sometimes plural is same as singular (e.g. furniture)
 };
 let __singularFormMethod = function() {
   let input = this.toString();
   return __pluralize396795627295786(input, 1);
-  
+
   // let output = nlp(input).nouns().toSingular().out("text");
   // return output === "" ? input : output;
 };
@@ -771,7 +778,7 @@ let __negativeFormMethod = function() {
             //perchanceError(`The '${property}' property doesn't exist within '${target.$text}'.`, ctxInfo.declarationLineNumber);
             return undefined;
           }
-          
+
           if(desc.get) {
             return desc.get.bind(proxiedThisRef)(); // <-- need to bind to this proxy so that the $output property is hidden from all successively chained functions - e.g. this.consumableList.selectOne.toString()
           } else if(desc.value && typeof desc.value === 'function') {
@@ -1027,7 +1034,7 @@ function __createPerchanceTree(text, moduleName, backupModuleName /*<-- this is 
         window.codeWarningsArray.push({lineNumber:lines[i].lineNumber, generatorName:moduleName, warningId:"square-brackets-wrapping-variable-name-within-square-block"});
       }
     }
-    
+
     if(lines[i].text.match(singleEqualsInIfElseConditionRegex)) {
       window.codeWarningsArray.push({lineNumber:lines[i].lineNumber, generatorName:moduleName, warningId:"single-equals-in-if-else-condition"});
     }
@@ -2999,11 +3006,11 @@ let __arraySelectOneMethod = function() {
       let details = __getTextOddsDetails(a);
       if(details && (details.odds.includes("[") || details.odds.includes("{"))) details.odds = details.odds.evaluateItem; // don't need the if statement, but it's better for performance
       let odds = details ? Number(details.odds) : 1; // <-- this doesn't allow dynamic odds notation in arrays. Can always add it later if it turns out that it would be useful.
-      
+
       if(odds < 0 || isNaN(odds)) {
         __perchanceError(`The odds of ${a} has evaluated to ${odds < 0 ? "a negative number" : "a non-number"}. It's item number ${i} in the list (the list that starts with ${this[0]}). You may have created this list with selectAll or selectUnique.`);
       }
-      
+
       let item = details ? details.textWithoutOdds : a;
       candidates.push({item, odds});
     } else {
@@ -3420,7 +3427,7 @@ function __removeHtmlTagsFromBlocksArray(blocks) {
       await ___executeScriptTag(scriptTags[i]);
     }
   }
-  
+
   function ___getAllMatches(str, regex) {
     const matches = [];
     let m;
@@ -3551,7 +3558,7 @@ function __removeHtmlTagsFromBlocksArray(blocks) {
     ...Object.getOwnPropertyNames(Object.getPrototypeOf(Object.getPrototypeOf(document))),
     ...Object.getOwnPropertyNames(Object.getPrototypeOf(window)),
   ].filter(k => k.startsWith("on") && (document[k] == null || typeof document[k] == "function")));
-  
+
   function ___isDomEventAttributeName(name) {
     if(___domEventAttributeNames.has(name)) return true;
     else return false;
@@ -3850,7 +3857,7 @@ function __removeHtmlTagsFromBlocksArray(blocks) {
         if(root.$meta.title) generatorTitle = root.$meta.title.evaluateItem;
         if(root.$meta.description) generatorDescription = root.$meta.description.evaluateItem;
         if(root.$meta.image) generatorImage = root.$meta.image.evaluateItem;
-        
+
         let metaProps = new Set(root.$meta.$valueChildren);
         metaProps.delete("title");
         metaProps.delete("description");
@@ -3870,7 +3877,7 @@ function __removeHtmlTagsFromBlocksArray(blocks) {
       } catch(e) {
         console.error(e);
       }
-      
+
       //e.source.postMessage({type:"metaUpdate", title:generatorTitle, html:generatorHTML}, e.origin);
       parent.postMessage({type:"metaUpdate", title:generatorTitle, html:generatorHTML, image:generatorImage, description:generatorDescription}, "https://perchance.org"); // had to use "https://perchance.org" as origin so our initial dummy update (using embedded data) works.
 
@@ -3910,7 +3917,7 @@ function __removeHtmlTagsFromBlocksArray(blocks) {
       title = window.location.pathname.slice(1).split("-").filter(function(a){return a;}).map(function(word){return word[0].toUpperCase()+word.slice(1); }).join(" ");
     }
     document.title = title+" ― Perchance" + (title.toLowerCase().includes("gener") ? "" : " Generator");
-    
+
   });</script> <style> .ldspmzjfhueifssge-ring{ display:inline-block;position:relative;width:64px;height:64px;}.ldspmzjfhueifssge-ring div{ box-sizing:border-box;display:block;position:absolute;width:51px;height:51px;margin:6px;border:6px solid #444;border-radius:50%;animation:lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;border-color:#444 transparent transparent transparent;}.ldspmzjfhueifssge-ring div:nth-child(1){ animation-delay:-0.45s;}.ldspmzjfhueifssge-ring div:nth-child(2){ animation-delay:-0.3s;}.ldspmzjfhueifssge-ring div:nth-child(3){ animation-delay:-0.15s;}@keyframes lds-ring{ 0%{ transform:rotate(0deg);}100%{ transform:rotate(360deg);}}</style> <div id="output-container"> </div> <script>// We need to make sure that when a user dynamically adds an element that has an inline event
   // handler (like onclick, for example) then we make sure they can directly reference their
   // top-level lists within those handlers:
@@ -4092,4 +4099,4 @@ function __removeHtmlTagsFromBlocksArray(blocks) {
         window.location.href = window.location.href.split("?")[0] + `?cacheBustDueToImportsHavingBeenEdited=${Math.random()}` + (window.location.href.split("?")[1] ? "&"+window.location.href.split("?")[1] : "");
       }
     }
-  })();</script> </body> </html> 
+  })();</script> </body> </html>
