@@ -19,21 +19,21 @@ h1{
 h2{
   font-family:titoloGazzetta2, Roboto;
   font-size:2em;
-  margin:0.67em 0;
+  margin:0.67em 0.67em;
   text-align: center;
 }
-h3{
-  font-family:titoloGazzetta2, Roboto;
-  font-size:2em;
-  margin:0.67em 0;
+p{
+  font-family:testoGazzetta, Roboto;
+  font-size:100%;
+  margin:2em 2em;
   text-align: center;
 }
 .container {
   height: 50px;
   position: relative;
+  /*border: 3px solid black;*/
 }
 .center {
-  margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,10 +41,48 @@ h3{
   transform: translate(-50%, -50%);
 }
 body{
-  background-color: #fde9eb
+  background-color: #fde9eb;
 }
 button{
   font-family: titoloGazzetta2;
-  font-size: 130%;
+  font-size: 150%;
   padding: 5%;
+}
+.linea{
+  width: 20%;
+  height: 10px;
+  margin: 0 auto;
+  background-color: #ddc0c0;
+}
+#dataOggiId{
+  font-family: Roboto;
+}
+.topnav {
+  margin:0 auto;
+  overflow: hidden;
+  background-color: black;
+  border: 5px solid black;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: titoloGazzetta2;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: #f07821;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: #f07821;
+}
+.topnav a.logo{
+  color: black;
+  background-color: #fde9eb;
 }
