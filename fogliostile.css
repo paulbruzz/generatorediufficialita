@@ -1,0 +1,50 @@
+@font-face{
+  font-family: 'titoloGazzetta';
+  src: url('CorisandeRegular.ttf');
+}
+@font-face{
+  font-family: 'titoloGazzetta2';
+  src: url('RobotoCondensed-Bold.ttf');
+}
+@font-face{
+  font-family: 'testoGazzetta';
+  src: url('GeorgiaRegular.ttf');
+}
+h1{
+  font-family:titoloGazzetta, Roboto;
+  font-size:3em;
+  margin:0.67em 0;
+  text-align: center;
+}
+h2{
+  font-family:titoloGazzetta2, Roboto;
+  font-size:2em;
+  margin:0.67em 0;
+  text-align: center;
+}
+h3{
+  font-family:titoloGazzetta2, Roboto;
+  font-size:2em;
+  margin:0.67em 0;
+  text-align: center;
+}
+.container {
+  height: 50px;
+  position: relative;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+body{
+  background-color: #fde9eb
+}
+button{
+  font-family: titoloGazzetta2;
+  font-size: 130%;
+  padding: 5%;
+}
