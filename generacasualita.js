@@ -248,7 +248,7 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
         var transferRandomSingolare = transferSingolare[Math.floor(Math.random() * transferSingolare.length)];
         var tatticaRandomSingolare = tatticaSingolare[Math.floor(Math.random() * tatticaSingolare.length)];
         document.getElementById("titolo").textContent = "Ufficialə" + " " + randomPersona + " " + randomSquadra + " " + "AHAHAHAHAH";
-        document.getElementById("articolo").textContent = introRandom + " " + randomPersona + " " + transferRandomSingolare + " " + terminiRandom + " " + randomSquadra + ". " + tatticaRandomSingolare + " " + randomZonaDiCampo + ".";
+        document.getElementById("articolo").textContent = introRandom + " " + randomPersona + " " + transferRandomSingolare + " " + randomSquadra + " " + terminiRandom + ". " + tatticaRandomSingolare + " " + randomZonaDiCampo + ".";
       }
       else
       {
@@ -256,7 +256,7 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
         var transferRandomPlurale = transferPlurale[Math.floor(Math.random() * transferPlurale.length)];
         var tatticaRandomPlurale = tatticaPlurale[Math.floor(Math.random() * tatticaPlurale.length)];
         document.getElementById("titolo").textContent = "Ufficialə" + " " + randomPersonaPlurale + " " + randomSquadra + " " + "AHAHAHAHAH";
-        document.getElementById("articolo").textContent = introRandom + " " + randomPersonaPlurale + " " + transferRandomPlurale + " " + terminiRandom + " " + randomSquadra + ". " + tatticaRandomPlurale + " " + randomZonaDiCampo + ".";
+        document.getElementById("articolo").textContent = introRandom + " " + randomPersonaPlurale + " " + transferRandomPlurale + " " + randomSquadra + " " + terminiRandom  + ". " + tatticaRandomPlurale + " " + randomZonaDiCampo + ".";
       }
     }
     else
@@ -267,8 +267,10 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
         var transferRandomSingolare = transferSingolare[Math.floor(Math.random() * transferSingolare.length)];
         var tatticaRandomSingolare = tatticaSingolare[Math.floor(Math.random() * tatticaSingolare.length)];
         var contratti = ["un contratto annuale", "un biennale", "un triennale", "un quadriennale", "un quinquennale"];
+        var randomContratto = contratti[Math.floor(Math.random() * contratti.length)];
+        var randomIngaggio = Math.floor(Math.random()*(20-2)+2); /*milioni di euro a stagione*/
         document.getElementById("titolo").textContent = "Ufficialə" + " " + randomPersona + " " + randomSquadra + " " + "AHAHAHAHAH";
-        document.getElementById("articolo").textContent = introRandom + " " + randomPersona + " ha firmato " + contratti[Math.floor(Math.random() * contratti.length)] + " " + randomConSquadra + ". " + tatticaRandomSingolare + " " + randomZonaDiCampo + ".";
+        document.getElementById("articolo").textContent = introRandom + " " + randomPersona + " ha firmato " + randomContratto + " da " + randomIngaggio + " milioni a stagione " + randomConSquadra + ". " + tatticaRandomSingolare + " " + randomZonaDiCampo + ".";
       }
       else
       {
@@ -276,8 +278,10 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
         var transferRandomPlurale = transferPlurale[Math.floor(Math.random() * transferPlurale.length)];
         var tatticaRandomPlurale = tatticaPlurale[Math.floor(Math.random() * tatticaPlurale.length)];
         var contratti = ["un contratto annuale", "un biennale", "un triennale", "un quadriennale", "un quinquennale"];
+        var randomContratto = contratti[Math.floor(Math.random() * contratti.length)];
+        var randomIngaggio = Math.floor(Math.random()*(20-2)+2); /*milioni di euro a stagione*/
         document.getElementById("titolo").textContent = "Ufficialə" + " " + randomPersonaPlurale + " " + randomSquadra + " " + "AHAHAHAHAH";
-        document.getElementById("articolo").textContent = introRandom + " " + randomPersonaPlurale + " hanno firmato " + contratti[Math.floor(Math.random() * contratti.length)] + " " + randomConSquadra + ". " + tatticaRandomPlurale + " " + randomZonaDiCampo + ".";
+        document.getElementById("articolo").textContent = introRandom + " " + randomPersonaPlurale + " hanno firmato " + randomContratto + " da " + randomIngaggio + " milioni a stagione " + randomConSquadra + ". " + tatticaRandomPlurale + " " + randomZonaDiCampo + ".";
       }
     }
 
