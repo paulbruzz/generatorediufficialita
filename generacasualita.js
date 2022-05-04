@@ -1,5 +1,4 @@
-
-  var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Adinolfi",
+var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Adinolfi",
   "Adriano Celentano","Adriano Pappalardo","Aida Yespica","Al Bano","Alba Parietti",
   "Alberto Angela","Aldo Baglio","Aldo Busi","Alessandro Siani","Alex Britti",
   "Alfonso Signorini","Alvaro Soler","Amadeus","Amanda Knox","Amanda Lear",
@@ -195,11 +194,21 @@
   "con la Stella Rossa","con la Ternana","con la Triestina","con lo Schalke","con lo Shakhtar",
   "con lo Spezia","con lo Sporting Lisbona"];
 
-  var cities = ["ROMA", "MILANO", "PARIGI", "LONDRA", "MADRID", "BERLINO", "FIRENZE", "NAPOLI", "ZURIGO", "VIENNA", "AMSTERDAM", "PRAGA", "LOS ANGELES", "NEW YORK", "MANCHESTER", "LIVERPOOL", "AREZZO"];
+  var cities = ["ROMA", "MILANO", "NAPOLI", "TORINO", "PALERMO", "GENOVA", "BOLOGNA",
+  "FIRENZE", "BARI", "CATANIA", "VENEZIA", "VERONA", "MESSINA", "PADOVA", "TRIESTE",
+  "TARANTO", "BRESCIA", "PARMA", "PRATO", "MODENA", "REGGIO CALABRIA", "REGGIO EMILIA",
+  "PERUGIA", "RAVENNA", "LIVORNO", "CAGLIARI", "FOGGIA", "RIMINI", "SALERNO", "FERRARA",
+  "SASSARI", "LATINA", "GIUGLIANO IN CAMPANIA", "MONZA", "SIRACUSA", "PESCARA", "BERGAMO",
+  "FORLÌ", "TRENTO", "VICENZA", "TERNI", "BOLZANO", "NOVARA", "PIACENZA", "ANCONA", "ANDRIA",
+  "AREZZO", "UDINE", "CESENA", "LECCE", "LONDRA", "BANGKOK", "HONG KONG", "SINGAPORE",
+  "MACAO", "PARIGI", "DUBAI", "NEW YORK", "KUALA LUMPUR", "ISTANBUL", "NUOVA DELHI",
+  "SHENZHEN", "MUMBAI", "TOKYO", "PRAGA", "AMSTERDAM", "MIAMI", "SEUL", "LAS VEGAS",
+  "MADRID", "BARCELLONA", "VIENNA", "BERLINO", "ATENE", "MOSCA", "MONACO DI BAVIERA",
+  "LISBONA", "BUDAPEST", "FRANCOFORTE", "STOCCOLMA"];
   var intro = ["Mancava l'ufficialità, ora è arrivata:", "Finalmente è ufficiale:", "Bomba di calciomercato:",
   "Pazzesco:", "Dopo una lunga trattativa,", "Dopo una trattativa-lampo che ha stupito gli addetti ai lavori,",
-  "Finalmente il sogno è realtà:", "Ora i tifosi sognano:", "Assurdo:", "Da non crederci:", "Sembrava impossibile, e invece è successo:",
-  "Dopo che la trattativa sembrava essere naufragata,"];
+  "Finalmente il sogno è realtà:", "Ora i tifosi sognano:", "Assurdo:", "Da non crederci:",
+  "Sembrava impossibile, e invece è successo:", "Dopo che la trattativa sembrava essere naufragata,"];
 
   var transferSingolare = ["ha ufficializzato il suo trasferimento", "ha confermato che andrà", "si trasferisce", "si accasa"];
   var transferPlurale = ["hanno ufficializzato il loro trasferimento", "hanno confermato che andranno", "si trasferiscono", "si accasano"];
