@@ -208,7 +208,9 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
   var intro = ["Mancava l'ufficialità, ora è arrivata:", "Finalmente è ufficiale:", "Bomba di calciomercato:",
   "Pazzesco:", "Dopo una lunga trattativa,", "Dopo una trattativa-lampo che ha stupito gli addetti ai lavori,",
   "Finalmente il sogno è realtà:", "Ora i tifosi sognano:", "Assurdo:", "Da non crederci:",
-  "Sembrava impossibile, e invece è successo:", "Dopo che la trattativa sembrava essere naufragata,"];
+  "Sembrava impossibile, e invece è successo:", "Dopo che la trattativa sembrava essere naufragata,", "Incredibile:",
+  "Contro ogni aspettativa,", "Come ampiamente previsto,", "Era nell'aria già da tempo, ma ora è ufficiale:",
+  "Le voci erano vere:", "Finalmente è stato raggiunto l'accordo:"];
 
   var transferSingolare = ["ha ufficializzato il suo trasferimento", "ha confermato che andrà", "si trasferisce", "si accasa"];
   var transferPlurale = ["hanno ufficializzato il loro trasferimento", "hanno confermato che andranno", "si trasferiscono", "si accasano"];
@@ -216,8 +218,8 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
   var termini = ["in prestito secco", "in prestito con diritto di riscatto", "in prestito biennale",
   "in prestito con obbligo di riscatto", "a titolo definitivo"];
 
-  var tatticaSingolare = ["Giocherà", "Coprirà il buco", "Dimostrerà le sue doti", "Promette di regalare magie", "Finalmente arriva il rinforzo tanto richiesto"];
-  var tatticaPlurale = ["Giocheranno", "Copriranno il buco", "Dimostreranno le loro doti", "Promettono di regalare magie", "Finalmente arriva il rinforzo tanto richiesto"];
+  var tatticaSingolare = ["Alzerà il tasso tecnico", "Giocherà", "Coprirà il buco", "Dimostrerà le sue doti", "Promette di regalare magie", "Grande attesa per i suoi numeri", "Colmerà le carenze"];
+  var tatticaPlurale = ["Alzeranno il tasso tecnico", "Giocheranno", "Copriranno il buco", "Dimostreranno le loro doti", "Promettono di regalare magie", "Grande attesa per i loro numeri", "Colmeranno le carenze"];
   var zonaDiCampo = ["in porta", "sulla fascia sinistra", "in difesa", "sulla trequarti", "in mediana", "in attacco", "sulla fascia destra", "a centrocampo"];
 
   window.onload = function(){
@@ -240,6 +242,7 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
 
     document.getElementById("dataOggiId").textContent = cities[Math.floor(Math.random() * cities.length)] + " - " + dataDiOggi;
 
+
     if(randomPerOCon == 0)
     {
       if(randomPlurale == 0)
@@ -247,42 +250,68 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
         var randomPersona = persone[Math.floor(Math.random() * persone.length)];
         var transferRandomSingolare = transferSingolare[Math.floor(Math.random() * transferSingolare.length)];
         var tatticaRandomSingolare = tatticaSingolare[Math.floor(Math.random() * tatticaSingolare.length)];
-        document.getElementById("titolo").textContent = "Ufficialə" + " " + randomPersona + " " + randomSquadra + " " + "AHAHAHAHAH";
-        document.getElementById("articolo").textContent = introRandom + " " + randomPersona + " " + transferRandomSingolare + " " + randomSquadra + " " + terminiRandom + ". " + tatticaRandomSingolare + " " + randomZonaDiCampo + ".";
+
+        document.getElementById("titolo").textContent = "Ufficialə" + " "
+        + randomPersona + " " + randomSquadra + " " + "AHAHAHAHAH";
+
+        document.getElementById("articolo").textContent = introRandom + " "
+        + randomPersona + " " + transferRandomSingolare + " "
+        + randomSquadra + " " + terminiRandom + ". " + tatticaRandomSingolare
+        + " " + randomZonaDiCampo + ".";
       }
       else
       {
         var randomPersonaPlurale = personePlurale[Math.floor(Math.random() * personePlurale.length)];
         var transferRandomPlurale = transferPlurale[Math.floor(Math.random() * transferPlurale.length)];
         var tatticaRandomPlurale = tatticaPlurale[Math.floor(Math.random() * tatticaPlurale.length)];
-        document.getElementById("titolo").textContent = "Ufficialə" + " " + randomPersonaPlurale + " " + randomSquadra + " " + "AHAHAHAHAH";
-        document.getElementById("articolo").textContent = introRandom + " " + randomPersonaPlurale + " " + transferRandomPlurale + " " + randomSquadra + " " + terminiRandom  + ". " + tatticaRandomPlurale + " " + randomZonaDiCampo + ".";
+
+        document.getElementById("titolo").textContent = "Ufficialə" + " "
+        + randomPersonaPlurale + " " + randomSquadra + " " + "AHAHAHAHAH";
+
+        document.getElementById("articolo").textContent = introRandom + " "
+        + randomPersonaPlurale + " " + transferRandomPlurale + " " + randomSquadra
+        + " " + terminiRandom  + ". " + tatticaRandomPlurale + " " + randomZonaDiCampo
+        + ".";
       }
     }
     else
     {
+      var introSquadraSoggetto = ["Colpo ", "Affarone ", "Rinforzi in arrivo ", "Un altro grande acquisto "];
       if(randomPlurale == 0)
       {
+        var introSquadraSoggettoRandom = introSquadraSoggetto[Math.floor(Math.random() * introSquadraSoggetto.length)];
         var randomPersona = persone[Math.floor(Math.random() * persone.length)];
         var transferRandomSingolare = transferSingolare[Math.floor(Math.random() * transferSingolare.length)];
         var tatticaRandomSingolare = tatticaSingolare[Math.floor(Math.random() * tatticaSingolare.length)];
-        var contratti = ["un contratto annuale", "un biennale", "un triennale", "un quadriennale", "un quinquennale"];
+        var contratti = ["un biennale", "un triennale", "un quadriennale", "un quinquennale"];
         var randomContratto = contratti[Math.floor(Math.random() * contratti.length)];
         var randomIngaggio = Math.floor(Math.random()*(20-2)+2); /*milioni di euro a stagione*/
-        document.getElementById("titolo").textContent = "Ufficialə" + " " + randomPersona + " " + randomSquadra + " " + "AHAHAHAHAH";
-        document.getElementById("articolo").textContent = introRandom + " " + randomPersona + " ha firmato " + randomContratto + " da " + randomIngaggio + " milioni a stagione " + randomConSquadra + ". " + tatticaRandomSingolare + " " + randomZonaDiCampo + ".";
+
+        document.getElementById("titolo").textContent = "Ufficialə" + " "
+        + randomPersona + " " + randomSquadra + " " + "AHAHAHAHAH";
+
+        document.getElementById("articolo").textContent = introSquadraSoggettoRandom + randomPerSquadra + ": "
+        + randomPersona + " ha firmato " + randomContratto + " da " + randomIngaggio
+        + " milioni a stagione. " + tatticaRandomSingolare
+        + " " + randomZonaDiCampo + ".";
       }
       else
       {
+        var introSquadraSoggettoRandom = introSquadraSoggetto[Math.floor(Math.random() * introSquadraSoggetto.length)];
         var randomPersonaPlurale = personePlurale[Math.floor(Math.random() * personePlurale.length)];
-        var transferRandomPlurale = transferPlurale[Math.floor(Math.random() * transferPlurale.length)];
-        var tatticaRandomPlurale = tatticaPlurale[Math.floor(Math.random() * tatticaPlurale.length)];
-        var contratti = ["un contratto annuale", "un biennale", "un triennale", "un quadriennale", "un quinquennale"];
+        var transferRandomSingolare = transferPlurale[Math.floor(Math.random() * transferSingolare.length)];
+        var tatticaRandomSingolare = tatticaPlurale[Math.floor(Math.random() * tatticaSingolare.length)];
+        var contratti = ["un biennale", "un triennale", "un quadriennale", "un quinquennale"];
         var randomContratto = contratti[Math.floor(Math.random() * contratti.length)];
         var randomIngaggio = Math.floor(Math.random()*(20-2)+2); /*milioni di euro a stagione*/
-        document.getElementById("titolo").textContent = "Ufficialə" + " " + randomPersonaPlurale + " " + randomSquadra + " " + "AHAHAHAHAH";
-        document.getElementById("articolo").textContent = introRandom + " " + randomPersonaPlurale + " hanno firmato " + randomContratto + " da " + randomIngaggio + " milioni a stagione " + randomConSquadra + ". " + tatticaRandomPlurale + " " + randomZonaDiCampo + ".";
+
+        document.getElementById("titolo").textContent = "Ufficialə" + " "
+        + randomPersonaPlurale + " " + randomSquadra + " " + "AHAHAHAHAH";
+
+        document.getElementById("articolo").textContent = introSquadraSoggettoRandom + randomPerSquadra + ": "
+        + randomPersonaPlurale + " hanno firmato " + randomContratto + " da " + randomIngaggio
+        + " milioni a stagione. " + tatticaRandomSingolare
+        + " " + randomZonaDiCampo + ".";
       }
     }
-
   }
