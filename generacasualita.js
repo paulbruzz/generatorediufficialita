@@ -67,7 +67,7 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
   "Penelope Cruz","PewDiePie","Pharrell Williams","Piero Pelù","Pierre Gasly",
   "Pigrieco","Pino Insegno","Pino Scotto","Pippo Baudo","Pitbull","Platinette",
   "Pupo","Purple Disco Machine","Quentin Tarantino",
-  "Rafael Nadal","Raoul Bova","Renato Zero","Matteo Renzi","Richard Benson",
+  "Rafael Nadal","Raoul Bova","Renato Zero","Matteo Renzi",
   "Rihanna","Rita Ora","Rkomi","Robbie Williams","Roberto Benigni","Robin Schulz",
   "Roby Facchinetti","Rocco Hunt","Rocco Siffredi","Rockerduck","Roger Federer",
   "Romina Power","Rudy Zerbi","Sabaku No Maiku","Salmo","Matteo Salvini","Samantha Cristoforetti",
