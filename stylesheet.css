@@ -1,0 +1,34 @@
+body{
+  padding: 5%;
+  text-align: justify;
+  background-color:	#2B292E;
+  color: rgb(200, 200, 200);
+}
+
+h3{
+  text-align: center;
+}
+
+.image_container{
+  margin: 5%;
+  padding: 2%;
+  border: 5px solid black;
+  border-radius: 2%;
+  background-color: rgb(75, 75, 75);
+}
+
+.meme_description{
+  margin: 2%;
+  text-align: center;
+}
+
+.button_container{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  position: relative;
+  margin-left: 3%;
+  margin-right: 3%;
+}
