@@ -1,4 +1,4 @@
-var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Adinolfi",
+var persone = ["50 Cent","Abatantuono","Achille Lauro", "Mario Adinolfi",
   "Adriano Celentano","Adriano Pappalardo","Aida Yespica","Al Bano","Alba Parietti",
   "Alberto Angela","Aldo Baglio","Aldo Busi","Alessandro Siani","Alex Britti",
   "Alfonso Signorini","Alvaro Soler","Amadeus","Amanda Knox","Amanda Lear",
@@ -47,7 +47,7 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
   "Latifi","Laura Pausini","Charles Leclerc","Lele Mora","Leonardo Pieraccioni",
   "Lewis Hamilton","Liam Gallagher","Liam Neeson","Ligabue","Lil Pump","Liliana Segre",
   "Lino Banfi","Lorde","Loredana Bertè","Lorella Cuccarini","Lori Del Santo",
-  "Loris Capirossi","Luca Argentero","Luca Bizzarri","Luca Giurato","Luca Laurenti",
+  "Loris Capirossi","Luca Argentero","Luca Bizzarri","Luca Laurenti",
   "Lucianina Littizzetto","Lucio Dalla","Luigi Di Maio","Luisa Ranieri","Valerio Lundini",
   "Lupo Alberto","Vladimir Luxuria","Madonna","Madre Teresa di Calcutta","Mahmood","Cristiano Malgioglio",
   "Manuela Arcuri","Mara Maionchi","Mara Venier","Marc Marquez","Marco Carta",
@@ -59,7 +59,7 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
   "Michelle Hunziker","Mick Schumacher","Mika","Mike Bongiorno","Miley Cyrus","Milly Carlucci",
   "Milo Manara","il commissario Montalbano","Morgan","Motta","Mousse T.","Nancy Brilli","Nanni Moretti",
   "Natalie Imbruglia","Neffa","Nek","Nicholas Cage","Nicki Minaj","Nico Hülkenberg",
-  "Nicola Savino","Nicola Ventola","Nicolas Vaporidis","Nicole Kidman","Nina Zilli",
+  "Nicola Savino","Nicolas Vaporidis","Nicole Kidman","Nina Zilli",
   "Nino Frassica","Nocoldiz","Noel Gallagher","Novak Djokovic","Obama","Oprah","Orietta Berti",
   "il Divino Otelma","Ozzy Osbourne","Paola Turci","Paola e Chiara","Paolo Bonolis","Paolo Fox",
   "Paolo Kessisoglu","Paolo Meneguzzi","Paolo Ruffini","Paolo Sorrentino","Paperino",
@@ -84,8 +84,7 @@ var persone = ["50 Cent","Abatantuono","Achille Lauro","Daniele Adani","Mario Ad
   "Walt Disney","Wanda Nara","Wanna Marchi","Whoopi Goldberg","Will Smith","Willie Peyote",
   "Winston Churchill","Wiz Khalifa","Woody Allen","Young Signorino","Yuki Tsunoda","Zagor",
   "Ivan Zazzaroni","Antonio Zequila","Zerocalcare","Zio Paperone","Zucchero Fornarciari","il Dalai Lama","il Gabibbo","il Mago Forest",
-  "il Mago Silvan","il Trio Medusa","il commissario Basettoni","Giorgia Meloni",
-  "la Regina Elisabetta"];
+  "il Mago Silvan","il Trio Medusa","il commissario Basettoni","Giorgia Meloni"];
 
   var personePlurale = ["Le Vibrazioni", "Benji & Fede", "Castolo e Ximenes", "Fabio & Mingo",
   "gli Evanescence", "gli Iron Maiden","gli Zero Assoluto", "Giò Di Tonno e Lola Ponce",
