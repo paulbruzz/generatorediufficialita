@@ -271,9 +271,7 @@ var cities = [
     "Cambieranno le sorti del reparto", "Aggiungeranno esperienza"];
   
   var zonaDiCampo = ["in porta", "sulla fascia sinistra", "in difesa", "sulla trequarti", "in mediana", 
-    "in attacco", "sulla fascia destra", "a centrocampo", "come centrale in difesa", "sulle ali", 
-    "come regista", "come mezzala", "nel reparto arretrato", "come esterno offensivo", "come braccetto", 
-    "come seconda punta", "come ala sinistra", "come ala destra", "nel ruolo di falso nueve"];
+    "in attacco", "sulla fascia destra", "a centrocampo"];
 
 
   window.onload = function(){
