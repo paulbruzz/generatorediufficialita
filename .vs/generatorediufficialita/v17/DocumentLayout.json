@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\generacasualita.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:generacasualita.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\intro.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:intro.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\cities.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cities.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\conSquadre.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:conSquadre.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\perSquadre.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:perSquadre.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\alleSquadre.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:alleSquadre.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\nomiPersonePlurali.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nomiPersonePlurali.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\nomiPersoneSingolari.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nomiPersoneSingolari.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-11T13:28:14.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "generacasualita.js",
+              "DocumentMoniker": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\generacasualita.js",
+              "RelativeDocumentMoniker": "generacasualita.js",
+              "ToolTip": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\generacasualita.js",
+              "RelativeToolTip": "generacasualita.js",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwFEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-11T13:02:39.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "intro.txt",
+              "DocumentMoniker": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\intro.txt",
+              "RelativeDocumentMoniker": "intro.txt",
+              "ToolTip": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\intro.txt",
+              "RelativeToolTip": "intro.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-11T12:40:05.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cities.txt",
+              "DocumentMoniker": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\cities.txt",
+              "RelativeDocumentMoniker": "cities.txt",
+              "ToolTip": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\cities.txt",
+              "RelativeToolTip": "cities.txt",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAADcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-11T12:38:56.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "conSquadre.txt",
+              "DocumentMoniker": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\conSquadre.txt",
+              "RelativeDocumentMoniker": "conSquadre.txt",
+              "ToolTip": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\conSquadre.txt",
+              "RelativeToolTip": "conSquadre.txt",
+              "ViewState": "AQIAAJUAAAAAAAAAAADwv5sAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-11T12:37:26.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "perSquadre.txt",
+              "DocumentMoniker": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\perSquadre.txt",
+              "RelativeDocumentMoniker": "perSquadre.txt",
+              "ToolTip": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\perSquadre.txt",
+              "RelativeToolTip": "perSquadre.txt",
+              "ViewState": "AQIAAIMAAAAAAAAAAADwv6UAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-11T12:35:21.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "alleSquadre.txt",
+              "DocumentMoniker": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\alleSquadre.txt",
+              "RelativeDocumentMoniker": "alleSquadre.txt",
+              "ToolTip": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\alleSquadre.txt",
+              "RelativeToolTip": "alleSquadre.txt",
+              "ViewState": "AQIAAI8AAAAAAAAAAADwv6UAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-11T12:34:53.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "nomiPersonePlurali.txt",
+              "DocumentMoniker": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\nomiPersonePlurali.txt",
+              "RelativeDocumentMoniker": "nomiPersonePlurali.txt",
+              "ToolTip": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\nomiPersonePlurali.txt",
+              "RelativeToolTip": "nomiPersonePlurali.txt",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-11T12:24:18.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "nomiPersoneSingolari.txt",
+              "DocumentMoniker": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\nomiPersoneSingolari.txt",
+              "RelativeDocumentMoniker": "nomiPersoneSingolari.txt",
+              "ToolTip": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\nomiPersoneSingolari.txt",
+              "RelativeToolTip": "nomiPersoneSingolari.txt",
+              "ViewState": "AQIAAHkBAAAAAAAAAADwv7MBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-11T12:20:44.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\paolo.bruzzo\\source\\repos\\generatorediufficialita\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-11T12:15:40.195Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

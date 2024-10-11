@@ -1,0 +1,166 @@
+al Barcellona
+al Bari
+al Basilea
+al Bayer Leverkusen
+al Bayern
+al Benevento
+al Benfica
+al Besiktas
+al Betis
+al Bilbao
+al Blackburn
+al Boca Juniors
+al Bologna
+al Borussia Dortmund
+al Borussia M'gladbach
+al Botafogo
+al Brentford
+al Brescia
+al Brighton
+al Burnley
+al Cagliari
+al Carpi
+al Casale
+al Catania
+al Catanzaro
+al Celta Vigo
+al Cesena
+al CFR Cluj
+al Chelsea
+al Chievo
+al Colonia
+al Como
+al Corinthians
+al Crotone
+al Cruzeiro
+al Crystal Palace
+al Fenerbahce
+al Feyenoord
+al Flamengo
+al Foggia
+al Frosinone
+al Galatasaray
+al Genoa
+al Getafe
+al Girona
+al Grêmio
+al L.A. Galaxy
+al Lecce
+al Lecco
+al Leeds
+al Leganés
+al Legia Varsavia
+al Legnano
+al Leicester
+al Levante
+al Lione
+al Lipsia
+al Liverpool
+al Livorno
+al Lorient
+al Ludogorets
+al Magonza
+al Manchester City
+al Manchester United
+al Mantova
+al Messina
+al Milan
+al Modena
+al Napoli
+al Newcastle
+al Norwich
+al Nottingham Forrest
+al Novara
+al Paderborn
+al Padova
+al Palermo
+al Palmeiras
+al Panathinaikos
+al PAOK
+al Parma
+al Partizan Belgrado
+al Perugia
+al Pescara
+al Piacenza
+al Pisa
+al Porto
+al PSG
+al PSV Eindhoven
+al Rapid Vienna
+al Rayo Vallecano
+al Real Madrid
+al River Plate
+al Rosenborg
+al Saint Etienne
+al San Paolo
+al Santos
+al Sassuolo
+al Siena
+al Siviglia
+al Southampton
+al Torino
+al Tottenham
+al Treviso
+al Valencia
+al Valladolid
+al Varese
+al Vasco da Gama
+al Venezia
+al Vicenza
+al Villarreal
+al Watford
+al Werder Brema
+al West Ham
+al Wolfsburg
+al Wolverhampton
+alla Cremonese
+alla Dinamo Bucarest
+alla Dinamo Kiev
+alla Dinamo Zagabria
+alla Fiorentina
+alla Fluminense
+alla Juve
+alla Lazio
+alla Lucchese
+alla Pistoiese
+alla Pro Patria
+alla Pro Vercelli
+alla Real Sociedad
+alla Reggiana
+alla Reggina
+alla Roma
+alla Salernitana
+alla Samp
+alla SPAL
+alla Stella Rossa
+alla Ternana
+alla Triestina
+all'AEK Atene
+all'Ajax
+all'Alavés
+all'Alessandria
+all'Amburgo
+all'Ancona
+all'Anderlecht
+all'Arsenal
+all'Ascoli
+all'Aston Villa
+all'Atalanta
+all'Atlético Madrid
+all'Avellino
+all'Eibar
+all'Eintracht
+all'Empoli
+all'Espanyol
+all'Everton
+all'Hellas Verona
+all'Hertha Berlino
+all'Hoffenheim
+all'Huesca
+all'Inter
+allo Schalke
+allo Shakhtar
+allo Spezia
+allo Sporting Lisbona
+all'Olympique Marsiglia
+all'Udinese
