@@ -24,12 +24,14 @@ Andrea Iannone
 Angela Merkel
 Angelina Jolie
 Anna Oxa
+Anna Pepe
 Anna Tatangelo
 Anne Hathaway
 Antonella Clerici
 Antonello Venditti
 Antonino Cannavacciuolo
 Arisa
+Artie 5ive
 Asia Argento
 Avril Lavigne
 Baby K
@@ -44,6 +46,7 @@ Bettino Craxi
 Beyoncé
 Biagio Antonacci
 Bianca Atzei
+BigMama
 Bill Gates
 Billie Eilish
 Blanco
@@ -53,8 +56,10 @@ Bon Jovi
 Bono Vox
 Boris Johnson
 Brad Pitt
+Bresh
 Briatore
 Britney Spears
+Brunori Sas
 Bugo
 Calcutta
 Calvin Harris
@@ -78,6 +83,7 @@ Christina Aguilera
 Cicciogamer
 Cipollino Boldi
 Ciro Priello
+Clara
 Claudio Amendola
 Claudio Baglioni
 Claudio Bisio
@@ -168,6 +174,7 @@ Francesco Renga
 Frank Matano
 Fraws
 Gabry Ponte
+Gaia
 George Clooney
 George Russell
 Geppi Cucciari
@@ -176,10 +183,12 @@ Ghali
 Ghemon
 Giacomino Poretti
 Giancarlo Fisichella
+Gianmarco Tamberi
 Gianni Celeste
 Gianni Morandi
 Gigi Dag
 Gigi D'Alessio
+Giorgia
 Giorgio Vanni
 Giovanni Muciaccia
 Giovanni Storti
@@ -190,6 +199,7 @@ Giuseppe Conte
 Giuseppe Simone
 Giusy Ferreri
 Greta Thunberg
+Guè Pequeno
 Gwen Stefani
 Harry Styles
 Heidi Klum
@@ -212,6 +222,7 @@ Jennifer Aniston
 Jerry Calà
 Jimmy Ghione
 Joan Mir
+Joan Thiele
 Joe Biden
 Johnny Bravo
 Johnny Depp
@@ -227,6 +238,7 @@ Keira Knightley
 Kevin Magnussen
 Kevin Spacey
 Khaby Lame
+Kid Yugi
 Kim Kardashian
 Kimi Raikkonen
 Kirk Hammett
@@ -254,6 +266,7 @@ Luca Argentero
 Luca Bizzarri
 Luca Laurenti
 Lucianina Littizzetto
+Lucio Corsi
 Lucio Dalla
 Luigi Di Maio
 Luisa Ranieri
@@ -264,6 +277,7 @@ Manuela Arcuri
 Mara Maionchi
 Mara Venier
 Marc Marquez
+Marcella Bella
 Marco Carta
 Marco Masini
 Marco Mengoni
@@ -278,6 +292,7 @@ Marracash
 Martin Garrix
 Martin Scorsese
 Massimo Pericolo
+Massimo Ranieri
 Matilda De Angelis
 Mattarella
 Matteo Berrettini
@@ -300,6 +315,7 @@ Mike Bongiorno
 Miley Cyrus
 Milly Carlucci
 Milo Manara
+Modà
 Montalbano
 Morgan
 Motta
@@ -320,7 +336,9 @@ Nina Zilli
 Nino Frassica
 Nocoldiz
 Noel Gallagher
+Noemi
 Novak Djokovic
+Olly
 Oprah Winfrey
 Orietta Berti
 Ozzy Osbourne
@@ -355,8 +373,10 @@ Purple Disco Machine
 Quentin Tarantino
 Rafael Nadal
 Raoul Bova
+Red Canzian
 Renato Brunetta
 Renato Zero
+Riccardo Fogli
 Rihanna
 Rita Ora
 Rkomi
@@ -371,24 +391,31 @@ Rocco Siffredi
 Rockerduck
 Roger Federer
 Romina Power
+Rondodasosa
+Rose Villain
 Rudy Zerbi
 Ryan Gosling
 Sabaku No Maiku
+Sacky
 Salmo
 Samantha Cristoforetti
 Sangiovanni
+Sarah Toscano
 Scanzi
 Sean Paul
 Sebastian Vettel
 Selena Gomez
+Serena Brancale
 Serena Williams
 Sergio Castellitto
 Sergio Pérez
 Sete Gibernau
 Sfera Ebbasta
 Sgarbi
+Shablo
 Shakira
 Simona Ventura
+Simone Cristicchi
 Snoop Dogg
 Solid Snake
 Stefano Accorsi
@@ -415,6 +442,7 @@ Toni Servillo
 Tony Effe
 Topo Gigio
 Topolino
+Tormento
 Toto Cutugno
 Travis Scott
 Tullio Solenghi
@@ -435,3 +463,5 @@ Vinicio Capossela
 Vladimir Luxuria
 Wanda Nara
 Wanna Marchi
+Willie Peyote
+Young Rame
