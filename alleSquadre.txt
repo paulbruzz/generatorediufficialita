@@ -110,9 +110,11 @@ al Vicenza
 al Villarreal
 al Watford
 al Werder Brema
+al West Bromwich
 al West Ham
 al Wolfsburg
 al Wolverhampton
+alla Carrarese
 alla Cremonese
 alla Dinamo Bucarest
 alla Dinamo Kiev
@@ -130,7 +132,7 @@ alla Reggiana
 alla Reggina
 alla Roma
 alla Salernitana
-alla Samp
+alla Sampdoria
 alla SPAL
 alla Stella Rossa
 alla Ternana
@@ -164,3 +166,74 @@ allo Spezia
 allo Sporting Lisbona
 all'Olympique Marsiglia
 all'Udinese
+al Rimini
+al Savoia
+alla Sangiovannese
+al Castel di Sangro
+al Seregno
+alla Cavese
+alla Sambenedettese
+alla Paganese
+al Monza
+al Pontedera
+al Trento
+alla Fermana
+al Renate
+al Taranto
+alla Virtus Entella
+alla Giana Erminio
+al Latina
+alla Vis Pesaro
+alla Vibonese
+all'Olbia
+all'Arzignano
+al Cuneo
+all'Imolese
+al Celtic
+ai Rangers
+all'Olympiacos
+al Sivasspor
+al Club Brugge
+all'AZ Alkmaar
+al BATE Borisov
+al Viktoria Plzeň
+all'Al Hilal
+all'Al Nassr
+all'Al Ahly
+all'Al Sadd
+al Tigres UANL
+al Club América
+al Pachuca
+al Monterrey
+all'Independiente
+al San Lorenzo
+al Nacional Montevideo
+al Las Palmas
+al Mallorca
+all'Osasuna
+al Deportivo La Coruña
+allo Sporting Gijón
+al Racing Santander
+all'Almería
+al Granada
+al Friburgo
+allo Stoccarda
+al Fortuna Düsseldorf
+all'Union Berlino
+al Bochum
+al Kaiserslautern
+al Darmstadt
+al Tolosa
+al Monaco
+al Lille
+al Nantes
+al Rennes
+al Reims
+all'Auxerre
+al Bordeaux
+al Sochaux
+al Fulham
+al Bournemouth
+al Sunderland
+al QPR
+al Derby County

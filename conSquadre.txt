@@ -110,9 +110,11 @@ con il Vicenza
 con il Villarreal
 con il Watford
 con il Werder Brema
+con il West Bromwich
 con il West Ham
 con il Wolfsburg
 con il Wolverhampton
+con la Carrarese
 con la Cremonese
 con la Dinamo Bucarest
 con la Dinamo Kiev
@@ -130,7 +132,7 @@ con la Reggiana
 con la Reggina
 con la Roma
 con la Salernitana
-con la Samp
+con la Sampdoria
 con la SPAL
 con la Stella Rossa
 con la Ternana
@@ -164,3 +166,74 @@ con lo Spezia
 con lo Sporting Lisbona
 con l'Olympique Marsiglia
 con l'Udinese
+col Rimini
+col Savoia
+con la Sangiovannese
+col Castel di Sangro
+col Seregno
+con la Cavese
+con la Sambenedettese
+con la Paganese
+col Monza
+col Pontedera
+col Trento
+con la Fermana
+col Renate
+col Taranto
+con la Virtus Entella
+col Giana Erminio
+col Latina
+con la Vis Pesaro
+con la Vibonese
+con l'Olbia
+con l'Arzignano
+col Cuneo
+con l'Imolese
+col Celtic
+coi Rangers
+con l'Olympiacos
+col Sivasspor
+col Club Brugge
+con l'AZ Alkmaar
+col BATE Borisov
+col Viktoria Plzeň
+con l'Al Hilal
+con l'Al Nassr
+con l'Al Ahly
+con l'Al Sadd
+col Tigres UANL
+col Club América
+col Pachuca
+col Monterrey
+con l'Independiente
+col San Lorenzo
+col Nacional Montevideo
+col Las Palmas
+col Mallorca
+con l'Osasuna
+col Deportivo La Coruña
+con lo Sporting Gijón
+col Racing Santander
+con l'Almería
+col Granada
+col Friburgo
+allo Stoccarda
+col Fortuna Düsseldorf
+con l'Union Berlino
+col Bochum
+col Kaiserslautern
+col Darmstadt
+col Tolosa
+col Monaco
+col Lille
+col Nantes
+col Rennes
+col Reims
+con l'Auxerre
+col Bordeaux
+col Sochaux
+col Fulham
+col Bournemouth
+col Sunderland
+col QPR
+col Derby County
