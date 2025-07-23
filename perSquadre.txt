@@ -110,9 +110,11 @@ per il Vicenza
 per il Villarreal
 per il Watford
 per il Werder Brema
+per il West Bromwich
 per il West Ham
 per il Wolfsburg
 per il Wolverhampton
+per la Carrarese
 per la Cremonese
 per la Dinamo Bucarest
 per la Dinamo Kiev
@@ -164,3 +166,74 @@ per lo Spezia
 per lo Sporting Lisbona
 per l'Olympique Marsiglia
 per l'Udinese
+per il Rimini
+per il Savoia
+per la Sangiovannese
+per il Castel di Sangro
+per il Seregno
+per la Cavese
+per la Sambenedettese
+per la Paganese
+per il Monza
+per il Pontedera
+per il Trento
+per la Fermana
+per il Renate
+per il Taranto
+per la Virtus Entella
+per il Giana Erminio
+per il Latina
+per la Vis Pesaro
+per la Vibonese
+per l'Olbia
+per l'Arzignano
+per il Cuneo
+per l'Imolese
+per il Celtic
+per i Rangers
+per l'Olympiacos
+per il Sivasspor
+per il Club Brugge
+per l'AZ Alkmaar
+per il BATE Borisov
+per il Viktoria Plzeň
+per l'Al Hilal
+per l'Al Nassr
+per l'Al Ahly
+per l'Al Sadd
+per il Tigres UANL
+per il Club América
+per il Pachuca
+per il Monterrey
+per l'Independiente
+per il San Lorenzo
+per il Nacional Montevideo
+per il Las Palmas
+per il Mallorca
+per l'Osasuna
+per il Deportivo La Coruña
+per lo Sporting Gijón
+per il Racing Santander
+per l'Almería
+per il Granada
+per il Friburgo
+per lo Stoccarda
+per il Fortuna Düsseldorf
+per l'Union Berlino
+per il Bochum
+per il Kaiserslautern
+per il Darmstadt
+per il Tolosa
+per il Monaco
+per il Lille
+per il Nantes
+per il Rennes
+per il Reims
+per l'Auxerre
+per il Bordeaux
+per il Sochaux
+per il Fulham
+per il Bournemouth
+per il Sunderland
+per il QPR
+per il Derby County
