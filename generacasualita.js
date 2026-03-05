@@ -5,8 +5,42 @@ var perSquadre = [];
 var conSquadre = [];
 var cities = [];
 var intro = [];
-var transferSingolare = ["ha ufficializzato il suo trasferimento", "ha confermato che andrà", "si trasferisce", "si accasa"];
-var transferPlurale = ["hanno ufficializzato il loro trasferimento", "hanno confermato che andranno", "si trasferiscono", "si accasano"];
+var transferSingolare = [
+    "ha ufficializzato il suo trasferimento",
+    "ha confermato che andrà",
+    "si trasferisce",
+    "si accasa",
+    "va",
+    "approda",
+    "sbarca",
+    "si lega",
+    "si unisce",
+    "passa",
+    "si sposta",
+    "si trasferirà",
+    "ha scelto di andare",
+    "ha deciso di andare",
+    "ha detto sì",
+    "ha dato l'ok"
+];
+var transferPlurale = [
+    "hanno ufficializzato il loro trasferimento",
+    "hanno confermato che andranno",
+    "si trasferiscono",
+    "si accasano",
+    "vanno",
+    "approdano",
+    "sbarcano",
+    "si legano",
+    "si uniscono",
+    "passano",
+    "si spostano",
+    "si trasferiranno",
+    "hanno scelto di andare",
+    "hanno deciso di andare",
+    "hanno detto sì",
+    "hanno dato l'ok"
+];
 
 // Tracking arrays to avoid repetitive content
 var recentlyUsed = {
@@ -29,23 +63,129 @@ var recentlyUsed = {
 var maxRecentlyUsed = 3; // Number of recent items to avoid
 var generationCount = 0; // Track how many times content has been generated
 
-var termini = ["in prestito secco", "in prestito con diritto di riscatto", "in prestito biennale",
-    "in prestito con obbligo di riscatto", "a titolo definitivo"];
+var termini = [
+    "in prestito secco",
+    "in prestito con diritto di riscatto",
+    "in prestito biennale",
+    "in prestito con obbligo di riscatto",
+    "a titolo definitivo",
+    "in prestito",
+    "in prestito annuale",
+    "in prestito fino a fine stagione",
+    "in prestito con opzione di riscatto",
+    "in prestito con opzione di acquisto",
+    "in prestito con obbligo di acquisto",
+    "in prestito con diritto di riscatto e contro-riscatto",
+    "in prestito con obbligo di riscatto a determinate condizioni",
+    "a titolo temporaneo",
+    "a parametro zero",
+    "con clausola di recompra",
+    "con percentuale sulla rivendita",
+    "con bonus legati a presenze e obiettivi"
+];
 
-var tatticaSingolare = ["Alzerà il tasso tecnico", "Giocherà", "Coprirà il buco", "Dimostrerà le sue doti",
-    "Promette di regalare magie", "Grande attesa per i suoi numeri", "Colmerà le carenze",
-    "Porterà equilibrio", "Si farà valere con la sua tecnica",
-    "Renderà la squadra più solida", "Aumenterà la qualità complessiva", "Fornirà soluzioni",
-    "Cambierà le sorti del reparto", "Aggiungerà esperienza"];
+var tatticaSingolare = [
+    "Alzerà il tasso tecnico",
+    "Giocherà",
+    "Coprirà il buco",
+    "Dimostrerà le sue doti",
+    "Promette di regalare magie",
+    "Grande attesa per i suoi numeri",
+    "Colmerà le carenze",
+    "Porterà equilibrio",
+    "Si farà valere con la sua tecnica",
+    "Renderà la squadra più solida",
+    "Aumenterà la qualità complessiva",
+    "Fornirà soluzioni",
+    "Cambierà le sorti del reparto",
+    "Aggiungerà esperienza",
+    "Darà nuova linfa",
+    "Darà più profondità alla rosa",
+    "Garantirà qualità",
+    "Porterà dinamismo",
+    "Porterà leadership",
+    "Porterà personalità",
+    "Offrirà alternative tattiche",
+    "Aggiungerà soluzioni",
+    "Aggiungerà solidità",
+    "Alzerà il livello del reparto",
+    "Sarà un’arma in più",
+    "Sarà un valore aggiunto",
+    "Sarà importante",
+    "Darà ordine alla manovra",
+    "Sposterà gli equilibri",
+    "Farà la differenza",
+    "Darà competizione interna",
+    "Aumenterà le rotazioni",
+    "Garantirà affidabilità",
+    "Metterà esperienza al servizio del gruppo",
+    "Porterà grinta",
+    "Porterà entusiasmo"
+];
 
-var tatticaPlurale = ["Alzeranno il tasso tecnico", "Giocheranno", "Copriranno il buco", "Dimostreranno le loro doti",
-    "Promettono di regalare magie", "Grande attesa per i loro numeri", "Colmeranno le carenze",
-    "Porteranno equilibrio", "Si faranno valere con la loro tecnica",
-    "Renderanno la squadra più solida", "Aumenteranno la qualità complessiva", "Forniranno soluzioni",
-    "Cambieranno le sorti del reparto", "Aggiungeranno esperienza"];
+var tatticaPlurale = [
+    "Alzeranno il tasso tecnico",
+    "Giocheranno",
+    "Copriranno il buco",
+    "Dimostreranno le loro doti",
+    "Promettono di regalare magie",
+    "Grande attesa per i loro numeri",
+    "Colmeranno le carenze",
+    "Porteranno equilibrio",
+    "Si faranno valere con la loro tecnica",
+    "Renderanno la squadra più solida",
+    "Aumenteranno la qualità complessiva",
+    "Forniranno soluzioni",
+    "Cambieranno le sorti del reparto",
+    "Aggiungeranno esperienza",
+    "Daranno nuova linfa",
+    "Daranno più profondità alla rosa",
+    "Garantiranno qualità",
+    "Porteranno dinamismo",
+    "Porteranno leadership",
+    "Porteranno personalità",
+    "Offriranno alternative tattiche",
+    "Aggiungeranno soluzioni",
+    "Aggiungeranno solidità",
+    "Alzeranno il livello del reparto",
+    "Saranno un’arma in più",
+    "Saranno un valore aggiunto",
+    "Saranno importanti",
+    "Daranno ordine alla manovra",
+    "Sposteranno gli equilibri",
+    "Faranno la differenza",
+    "Daranno competizione interna",
+    "Aumenteranno le rotazioni",
+    "Garantiranno affidabilità",
+    "Metteranno esperienza al servizio del gruppo",
+    "Porteranno grinta",
+    "Porteranno entusiasmo"
+];
 
-var zonaDiCampo = ["in porta", "sulla fascia sinistra", "in difesa", "sulla trequarti", "in mediana",
-    "in attacco", "sulla fascia destra", "a centrocampo"];
+var zonaDiCampo = [
+    "in porta",
+    "tra i pali",
+    "in area di rigore",
+    "in difesa",
+    "nel reparto arretrato",
+    "al centro della difesa",
+    "sulla fascia sinistra",
+    "sulla corsia di sinistra",
+    "sulla fascia destra",
+    "sulla corsia di destra",
+    "a centrocampo",
+    "in mediana",
+    "in mezzo al campo",
+    "nel cuore del gioco",
+    "in cabina di regia",
+    "sulla trequarti",
+    "tra le linee",
+    "alle spalle delle punte",
+    "in attacco",
+    "nel reparto offensivo",
+    "in avanti",
+    "in area"
+];
 
 // Define the raw URLs for your text files
 var urls = {

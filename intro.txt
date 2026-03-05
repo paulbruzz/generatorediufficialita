@@ -13,7 +13,7 @@ Clamoroso:
 Colpo a sorpresa:
 Colpo chiuso in extremis:
 Colpo sensazionale:
-Come ampiamente previsto:
+Come ampiamente previsto,
 Confermata l'operazione a sorpresa:
 Confermata la notizia tanto attesa:
 Contro ogni aspettativa:
@@ -22,17 +22,17 @@ Da non crederci:
 Dopo aver tenuto tutti col fiato sospeso:
 Dopo che la trattativa sembrava essere naufragata:
 Dopo giorni di silenzio, ecco la notizia:
-Dopo giorni di trattative serrate:
+Dopo giorni di trattative serrate,
 Dopo l’ultimo rilancio, ecco la svolta:
 Dopo mesi di speculazioni, ora è ufficiale:
 Dopo rumors e speculazioni:
 Dopo settimane di attesa:
 Dopo settimane di voci, ora è certezza:
 Dopo tante voci, ecco l'annuncio ufficiale:
-Dopo un lungo tira e molla:
+Dopo un lungo tira e molla,
 Dopo un'operazione complessa, l'accordo è ufficiale:
 Dopo una lunga attesa, è arrivato il momento:
-Dopo una lunga trattativa:
+Dopo una lunga trattativa,
 Dopo una notte di contatti, si chiude:
 Dopo una trattativa-lampo che ha stupito gli addetti ai lavori:
 Era nell'aria già da tempo, ma ora è ufficiale:
@@ -51,7 +51,7 @@ Il club ha chiuso una trattativa importante:
 Il club ha fatto il colpaccio:
 Il club ha sorpreso tutti con questa mossa di mercato:
 Il colpo del secolo si è concretizzato:
-Il colpo è stato messo a segno con grande rapidità:
+Il colpo è stato messo a segno:
 Il mercato non smette di sorprendere:
 Il mercato si accende:
 Il mercato si infiamma con questa notizia:
@@ -85,7 +85,7 @@ Ora è tutto vero:
 Ora è ufficiale:
 Pazzesco:
 Scossa di mercato:
-Sembrava impossibile, e invece è successo:
+Sembrava impossibile, e invece è successo veramente:
 Sorpresa totale:
 Svelato il mistero dietro la trattativa:
 Svelato l'accordo tra le due squadre:
@@ -96,7 +96,6 @@ Tutto confermato:
 Tutto fatto:
 Ufficiale, il colpo è stato messo a segno:
 Un affare che cambia gli equilibri del mercato:
-Un altro colpo da maestro per il club:
 Un altro colpo per rinforzare la squadra:
 Un annuncio che scuote il mercato:
 Un colpo che fa discutere:
