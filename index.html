@@ -43,7 +43,13 @@
     <!-- Optional debug info (hidden by default) -->
     <div id="debugInfo" style="display: none; margin-top: 20px; font-size: 0.7em; opacity: 0.5;">
       <p>Generazioni: <span id="genCount">0</span></p>
-      <p>Elementi evitati: <span id="avoidedCount">0</span></p>
+      <p>Nomi evitati: <span id="avoidedCount">0</span></p>
+      <button onclick="toggleDebugInfo()" style="font-size: 0.8em;">Nascondi Debug</button>
+      <button onclick="resetRecentlyUsed()" style="font-size: 0.8em; margin-left: 5px;">Reset Nomi</button>
+    </div>
+    <!-- Debug toggle button -->
+    <div style="position: fixed; bottom: 10px; right: 10px; opacity: 0.3;">
+      <button onclick="toggleDebugInfo()" style="font-size: 0.7em; padding: 2px 6px;">Debug</button>
     </div>
   </body>
 </html>

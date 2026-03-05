@@ -60,7 +60,8 @@ var recentlyUsed = {
 };
 
 // Configuration for avoiding repetition
-var maxRecentlyUsed = 3; // Number of recent items to avoid
+var maxRecentlyUsed = 100; // Number of recent items to avoid for names (increased from 3 to 100)
+var maxRecentlyUsedOther = 5; // For other elements like cities, intros, etc.
 var generationCount = 0; // Track how many times content has been generated
 
 var termini = [
@@ -337,14 +338,47 @@ function getSmartRandom(array, categoryKey) {
 function getWeightedRandom(array, categoryKey) {
     if (!array || array.length === 0) return null;
     
+    // Use different avoidance rules for names vs other content
+    var isNameCategory = (categoryKey === 'personeSingolare' || categoryKey === 'personePlurale');
+    var maxToAvoid = isNameCategory ? maxRecentlyUsed : maxRecentlyUsedOther;
+    
     var recentItems = recentlyUsed[categoryKey] || [];
+    
+    // For names, completely avoid recently used items for 100 draws
+    if (isNameCategory) {
+        var availableItems = array.filter(item => !recentItems.includes(item));
+        
+        // If all items have been used recently, clear the oldest 50% to make room
+        if (availableItems.length === 0) {
+            var halfLength = Math.floor(recentItems.length / 2);
+            recentlyUsed[categoryKey] = recentItems.slice(halfLength);
+            availableItems = array.filter(item => !recentlyUsed[categoryKey].includes(item));
+            console.log("Cleared oldest names from avoidance list. Available names:", availableItems.length);
+        }
+        
+        // Pick randomly from available items
+        var selectedItem = availableItems[Math.floor(Math.random() * availableItems.length)];
+        
+        // Track the selected item
+        recentlyUsed[categoryKey].push(selectedItem);
+        
+        // Keep only the most recent items for names
+        if (recentlyUsed[categoryKey].length > maxToAvoid) {
+            recentlyUsed[categoryKey].shift();
+        }
+        
+        console.log(`Selected name: ${selectedItem}, Recently used count: ${recentlyUsed[categoryKey].length}, Available: ${availableItems.length}`);
+        return selectedItem;
+    }
+    
+    // For other content, use weighted selection
     var weights = array.map(item => {
         var recentIndex = recentItems.indexOf(item);
         if (recentIndex === -1) {
             return 1.0; // Normal weight for unused items
         }
         // Reduce weight based on how recently it was used
-        return Math.max(0.1, 1.0 - (0.3 * (maxRecentlyUsed - recentIndex) / maxRecentlyUsed));
+        return Math.max(0.1, 1.0 - (0.3 * (maxToAvoid - recentIndex) / maxToAvoid));
     });
     
     // Calculate total weight
@@ -357,19 +391,14 @@ function getWeightedRandom(array, categoryKey) {
         if (random <= weightSum) {
             var selectedItem = array[i];
             
-            // Log selection for debugging (can be removed in production)
-            if (recentItems.includes(selectedItem)) {
-                console.log("Selected recently used item:", selectedItem, "for category:", categoryKey);
-            }
-            
             // Track the selected item
             if (!recentlyUsed[categoryKey]) {
                 recentlyUsed[categoryKey] = [];
             }
             recentlyUsed[categoryKey].push(selectedItem);
             
-            // Keep only the most recent items
-            if (recentlyUsed[categoryKey].length > maxRecentlyUsed) {
+            // Keep only the most recent items for other content
+            if (recentlyUsed[categoryKey].length > maxToAvoid) {
                 recentlyUsed[categoryKey].shift();
             }
             
@@ -391,9 +420,15 @@ function resetRecentlyUsed() {
 }
 
 // Function to adjust repetition avoidance settings
-function setRepetitionSettings(maxRecent) {
-    maxRecentlyUsed = Math.max(1, Math.min(maxRecent, 10)); // Keep between 1-10
-    console.log("Max recently used items set to:", maxRecentlyUsed);
+function setRepetitionSettings(maxRecentNames, maxRecentOther) {
+    if (maxRecentNames !== undefined) {
+        maxRecentlyUsed = Math.max(1, Math.min(maxRecentNames, 200)); // Keep between 1-200 for names
+        console.log("Max recently used names set to:", maxRecentlyUsed);
+    }
+    if (maxRecentOther !== undefined) {
+        maxRecentlyUsedOther = Math.max(1, Math.min(maxRecentOther, 20)); // Keep between 1-20 for other content
+        console.log("Max recently used other content set to:", maxRecentlyUsedOther);
+    }
 }
 
 // Function to update debug information
@@ -406,11 +441,14 @@ function updateDebugInfo() {
     }
     
     if (avoidedCountElement) {
-        var totalAvoided = 0;
+        var nameCount = (recentlyUsed.personeSingolare?.length || 0) + (recentlyUsed.personePlurale?.length || 0);
+        var otherCount = 0;
         for (var key in recentlyUsed) {
-            totalAvoided += recentlyUsed[key].length;
+            if (key !== 'personeSingolare' && key !== 'personePlurale') {
+                otherCount += recentlyUsed[key].length;
+            }
         }
-        avoidedCountElement.textContent = totalAvoided;
+        avoidedCountElement.textContent = `Names: ${nameCount}/200, Other: ${otherCount}`;
     }
 }
 
