@@ -1,38 +1,50 @@
+Adesso non è più solo una voce:
+Affare fatto:
+Alla fine è arrivata la fumata bianca:
 Alla fine, la trattativa ha avuto esito positivo:
 Arriva l'annuncio ufficiale che tutti aspettavano:
+Arriva l’annuncio:
+Arriva l’ufficialità in queste ore:
 Arriva una conferma importante:
 Assurdo:
 Bomba di calciomercato:
 Clamoroso annuncio:
+Clamoroso:
+Colpo a sorpresa:
+Colpo chiuso in extremis:
 Colpo sensazionale:
 Come ampiamente previsto:
-Confermata la notizia tanto attesa:
 Confermata l'operazione a sorpresa:
+Confermata la notizia tanto attesa:
 Contro ogni aspettativa:
+Da fonti vicinissime, sarebbe fatta:
 Da non crederci:
 Dopo aver tenuto tutti col fiato sospeso:
 Dopo che la trattativa sembrava essere naufragata:
 Dopo giorni di silenzio, ecco la notizia:
 Dopo giorni di trattative serrate:
+Dopo l’ultimo rilancio, ecco la svolta:
 Dopo mesi di speculazioni, ora è ufficiale:
 Dopo rumors e speculazioni:
 Dopo settimane di attesa:
 Dopo settimane di voci, ora è certezza:
 Dopo tante voci, ecco l'annuncio ufficiale:
 Dopo un lungo tira e molla:
+Dopo un'operazione complessa, l'accordo è ufficiale:
 Dopo una lunga attesa, è arrivato il momento:
 Dopo una lunga trattativa:
+Dopo una notte di contatti, si chiude:
 Dopo una trattativa-lampo che ha stupito gli addetti ai lavori:
-Dopo un'operazione complessa, l'accordo è ufficiale:
-È arrivato il momento tanto atteso:
-È fatta:
 Era nell'aria già da tempo, ma ora è ufficiale:
-Finalmente è arrivata la firma:
-Finalmente è arrivata l'ufficialità tanto attesa:
-Finalmente è stato raggiunto l'accordo:
-Finalmente è ufficiale:
+Finalmente c’è la firma:
+Finalmente il comunicato ufficiale:
 Finalmente il sogno è realtà:
 Finalmente si è chiuso l'accordo atteso da molti:
+Finalmente è arrivata l'ufficialità tanto attesa:
+Finalmente è arrivata la firma:
+Finalmente è stato raggiunto l'accordo:
+Finalmente è ufficiale:
+Fumata bianca:
 I tifosi possono finalmente esultare:
 Il calciomercato regala un'altra sorpresa:
 Il club ha chiuso una trattativa importante:
@@ -41,34 +53,47 @@ Il club ha sorpreso tutti con questa mossa di mercato:
 Il colpo del secolo si è concretizzato:
 Il colpo è stato messo a segno con grande rapidità:
 Il mercato non smette di sorprendere:
+Il mercato si accende:
 Il mercato si infiamma con questa notizia:
+Incredibile svolta di mercato:
 Incredibile:
-La firma è arrivata dopo una lunga negoziazione:
-La notizia che tutti aspettavano:
-La sorpresa del giorno arriva da:
-La telenovela di mercato si è conclusa:
-La trattativa è stata portata a termine con successo:
-La trattativa si è conclusa nel migliore dei modi:
 L'accordo è stato raggiunto dopo intense trattative:
 L'affare si è concluso con successo:
 L'annuncio è arrivato proprio oggi:
 L'annuncio è stato fatto oggi stesso:
+L'operazione è stata conclusa con successo:
+L'ufficialità è arrivata proprio in queste ore:
+La firma è arrivata dopo una lunga negoziazione:
+La notizia che tutti aspettavano:
+La sorpresa del giorno arriva da:
+La telenovela di mercato si è conclusa:
+La telenovela finisce qui:
+La trattativa si è conclusa nel migliore dei modi:
+La trattativa è stata portata a termine con successo:
 Le carte sono state firmate:
 Le firme sono arrivate, ora è tutto confermato:
 Le voci erano vere:
-L'operazione è stata conclusa con successo:
-L'ufficialità è arrivata proprio in queste ore:
 Mancava l'ufficialità, ora è arrivata:
+Mancava solo l’annuncio:
 Nessuno se lo aspettava, ma è successo:
 Non ci sono più dubbi:
-Ora è tutto vero:
+Non è più un’indiscrezione:
+Operazione chiusa:
 Ora i tifosi sognano:
+Ora è realtà:
+Ora è tutto vero:
+Ora è ufficiale:
 Pazzesco:
+Scossa di mercato:
 Sembrava impossibile, e invece è successo:
+Sorpresa totale:
 Svelato il mistero dietro la trattativa:
 Svelato l'accordo tra le due squadre:
+Trattativa chiusa:
+Trattativa conclusa:
 Tutti i dettagli sono stati definiti:
 Tutto confermato:
+Tutto fatto:
 Ufficiale, il colpo è stato messo a segno:
 Un affare che cambia gli equilibri del mercato:
 Un altro colpo da maestro per il club:
@@ -78,10 +103,14 @@ Un colpo che fa discutere:
 Un colpo che scuote tutto il calcio europeo:
 Un colpo di scena improvviso:
 Un trasferimento che cambierà il volto della squadra:
+Un'operazione di mercato da capogiro:
+Un'operazione fulminea che ha colto tutti di sorpresa:
 Una delle operazioni di mercato più attese:
 Una mossa di mercato decisiva:
 Una notizia che farà discutere a lungo:
 Una notizia che scuote tutto l'ambiente calcistico:
 Una trattativa che ha sorpreso tutti:
-Un'operazione di mercato da capogiro:
-Un'operazione fulminea che ha colto tutti di sorpresa:
+È arrivata la svolta decisiva:
+È arrivato il momento tanto atteso:
+È fatta:
+È tutto nero su bianco:

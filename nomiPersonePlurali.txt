@@ -54,12 +54,13 @@ i Radiohead
 i Rammstein
 i Red Hot Chili Peppers
 i Ricchi e Poveri
-I Sansoni
+i Sansoni
 i Soldi Spicci
 i Subsonica
 i The Jackal
 i The Show
 i Tre Allegri Ragazzi Morti
+le Bambole di Pezza
 le Coliche
 le gemelle Olsen
 le Superchicche

@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="it" dir="ltr">
   <head>
-    <link rel="stylesheet" href="fogliostile.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <script src="generacasualita.js"></script>
     <title>GENERATORE DI UFFICIALITA'</title>
+    <link rel="stylesheet" href="fogliostile.css">
+    <link rel="preconnect" href="https://raw.githubusercontent.com">
+    <link rel="dns-prefetch" href="//raw.githubusercontent.com">
+    <script src="generacasualita.js" defer></script>
+    <script>
+      // Register service worker for caching
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js')
+            .then(function(registration) {
+              console.log('SW registered: ', registration);
+            }, function(registrationError) {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
   </head>
   <body>
     <div class="topnav">
@@ -15,15 +30,20 @@
       <a href="#about">IPPICA</a>
     </div>
     <h1>Generatore di ufficialità</h1>
-    <h2 id="titolo"></h2>
+    <h2 id="titolo">Caricamento...</h2>
       <div class ="linea"></div>
     <p id="dataOggiId">
     </p>
     <p id="articolo"></p>
     <div class="container">
       <div class="center">
-        <button onclick="getUfficialita()">UN'ALTRA</button>
+        <button id="generateBtn" onclick="getUfficialita()" disabled>Caricamento...</button>
       </div>
+    </div>
+    <!-- Optional debug info (hidden by default) -->
+    <div id="debugInfo" style="display: none; margin-top: 20px; font-size: 0.7em; opacity: 0.5;">
+      <p>Generazioni: <span id="genCount">0</span></p>
+      <p>Elementi evitati: <span id="avoidedCount">0</span></p>
     </div>
   </body>
 </html>
